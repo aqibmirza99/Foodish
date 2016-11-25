@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="#fff"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+    <EditText
+        android:layout_width="match_parent"
+        android:hint="Enter User Name"
+        android:textColor="#000"
+        android:layout_marginTop="10dp"
+        android:background="#000"
+        android:layout_height="50dp" />
+    <EditText
+        android:layout_width="match_parent"
+        android:hint="Enter PassWord"
+        android:textColor="#000"
+        android:background="#000"
+        android:layout_marginTop="25dp"
+        android:layout_height="50dp" />
+    <Button
+        android:layout_width="250dp"
+        android:hint="Sign In"
+        android:textColor="#000"
+        android:background="#000"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="60dp"
+        android:gravity="center"
+        android:layout_height="50dp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:hint="Dont Have An Account Yet?"
+        android:gravity="center"
+        android:textColor="#000"
+        android:background="#000"
+        android:layout_marginTop="26dp"
+        android:layout_height="50dp" />
+    <Button
+        android:layout_width="250dp"
+        android:hint="Sign Up"
+        android:textColor="#000"
+        android:layout_marginLeft="60dp"
+        android:background="#000"
+        android:layout_marginTop="50dp"
+        android:layout_height="50dp" />
+
+</LinearLayout>
